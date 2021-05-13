@@ -30,7 +30,7 @@ public class OAuthController {
     // 应该存在redis中
     public static Map<String, Social> socials = new HashMap<>();
 
-    private static final String KEY = "YOU APP ID";
+    private static final String KEY = "YOU APP_ID";
     private static final String SECRET = "YOU SECURITY";
 
     @GetMapping("/token")
